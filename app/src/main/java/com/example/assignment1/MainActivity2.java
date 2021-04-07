@@ -24,7 +24,7 @@ public class MainActivity2 extends AppCompatActivity {
         TextView txtData1 = findViewById(R.id.txtDispalyData1);
         txtData1.setText(data1);
 
-        String data2=intent.getStringExtra("Gender");
+        String data2=intent.getStringExtra("gender");
         TextView txtData2 = findViewById(R.id.txtDispalyData2);
         txtData2.setText(data2);
 
