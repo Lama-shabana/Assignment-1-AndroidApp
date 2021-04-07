@@ -78,14 +78,14 @@ public class MainActivity extends AppCompatActivity  {
     }
 
 
-  private void spinner() {
+    private void spinner() {
 
-      ArrayList<String> gender = new ArrayList<>();
-       gender.add("Male");
-       gender.add("Female");
-      ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
-              android.R.layout.simple_spinner_item, gender);
-      spinner.setAdapter(adapter);
+        ArrayList<String> gender = new ArrayList<>();
+        gender.add("Male");
+        gender.add("Female");
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
+                android.R.layout.simple_spinner_item, gender);
+        spinner.setAdapter(adapter);
 
   }
 }
